@@ -25,7 +25,7 @@ export class AboutComponent implements OnInit {
   }
 
   navigateHome() {
-    this.route.navigate(['']);
+    this.router.navigate(['']);
   }
 
 }
